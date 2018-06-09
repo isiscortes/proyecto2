@@ -9,6 +9,14 @@
   opacity: 0.5%;
   color: black; }
 
+h1{
+	color: white;
+}
+
+.blanco{
+	color: white;
+}
+
 .ourworks {
   background-color: black;
   color: white; }
@@ -55,5 +63,7 @@ footer {
 .iconoredondo {
   border-radius: 40%;
   color: white; }
+
+
 
 /*# sourceMappingURL=style.css.map */
