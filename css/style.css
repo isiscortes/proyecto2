@@ -226,14 +226,22 @@ footer{
     display: block;
     margin: auto;
     float: center;
-    border-radius: 8px;
-    padding: 13px 35px;
-    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Lato", sans-serif;
-    margin-top: 2%;
-    margin-bottom: 10%;}
+    -webkit-transition-duration: 0.4s; 
+     transition-duration: 0.4s;
+    }
+
+
+.botonNegro:hover{
+  background-color: #a33cfc;
+  color: white;
+  text-decoration: none;
+}
+
 
 .btnmessage{
     color: white;
@@ -241,13 +249,12 @@ footer{
     display: block;
     margin: left;
     float: center;
-    border-radius: 8px;
-    padding: 13px 35px;
+    border: none;
+    padding: 15px 32px;
     cursor: pointer;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Lato", sans-serif;
-    margin-top: 2%;
 }
 
 .btnfooter {
@@ -258,9 +265,8 @@ footer{
     display: block;
     margin: auto;
     float: center;
-    border-radius: 2%;
-    padding: 13px 35px;
-    cursor: pointer;
+    border: none;
+    padding: 15px 32px;
     text-align: center;
     font-size: 1.124em;
     font-family: "Lato", sans-serif;
